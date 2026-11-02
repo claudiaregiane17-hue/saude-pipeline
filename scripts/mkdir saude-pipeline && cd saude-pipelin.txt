@@ -1,0 +1,31 @@
+mkdir saude-pipeline && cd saude-pipeline
+git init -b main
+
+mkdir -p data/raw data/db sql/refined sql/marts src tests docs
+touch data/raw/.gitkeep data/db/.gitkeep
+
+cat > .gitignore << 'EOF'
+# dados pesados ficam fora do git; o README diz como baixar
+data/raw/*
+!data/raw/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+EOF
+
+cat > requirements.txt << 'EOF'
+duckdb
+pytest
+pytest-cov
+EOF
+
+python -m venv .venv
+source .venv/bin/activate      # no Windows: .venv\Scripts\activate
+pip install -r requirements.txt

@@ -1,3 +1,4 @@
+$readme = @'
 # Pipeline de saúde: coorte sintética COVID-19 (Synthea)
 
 Projeto final do curso de engenharia de dados. Pipeline em Python + SQL + DuckDB,
@@ -45,9 +46,4 @@ _(a preencher na etapa de exploração)_
 ## Onde a IA errou ou assumiu algo
 
 1. **Sistema operacional.** A IA passou comandos de bash sem perguntar qual era
-   o terminal; no PowerShell eles falharam (o texto do README foi interpretado
-   como código). Descobri pelo erro de parser e os comandos foram refeitos
-   em PowerShell.
-2. **Pasta de trabalho.** A IA assumiu que o terminal estava na pasta do projeto
-   e o README foi gravado em `C:\Users\claud`. Descobri pelo prompt do terminal
-   (`PS C:\Users\claud>`) e movi o arquivo para o repositório.
+   o terminal; no PowerShell eles falharam (o texto do

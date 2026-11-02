@@ -1,0 +1,98 @@
+{
+  "2025-01": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2501.parquet"
+    ],
+    "linhas": 126429,
+    "colunas": 113
+  },
+  "2025-02": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2502.parquet"
+    ],
+    "linhas": 122372,
+    "colunas": 113
+  },
+  "2025-03": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2503.parquet"
+    ],
+    "linhas": 127776,
+    "colunas": 114
+  },
+  "2025-04": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2504.parquet"
+    ],
+    "linhas": 130850,
+    "colunas": 114
+  },
+  "2025-05": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2505.parquet"
+    ],
+    "linhas": 139441,
+    "colunas": 114
+  },
+  "2025-06": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2506.parquet"
+    ],
+    "linhas": 136264,
+    "colunas": 114
+  },
+  "2025-07": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2507.parquet"
+    ],
+    "linhas": 140907,
+    "colunas": 114
+  },
+  "2025-08": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2508.parquet"
+    ],
+    "linhas": 139123,
+    "colunas": 114
+  },
+  "2025-09": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2509.parquet"
+    ],
+    "linhas": 138501,
+    "colunas": 114
+  },
+  "2025-10": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2510.parquet"
+    ],
+    "linhas": 139336,
+    "colunas": 114
+  },
+  "2025-11": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2511.parquet"
+    ],
+    "linhas": 129707,
+    "colunas": 114
+  },
+  "2025-12": {
+    "status": "ok",
+    "arquivos": [
+      "RDMG2512.parquet"
+    ],
+    "linhas": 128022,
+    "colunas": 114
+  }
+}
