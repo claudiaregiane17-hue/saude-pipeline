@@ -1,0 +1,13 @@
+# dados pesados ficam fora do git; o README diz como baixar
+data/raw/*
+!data/raw/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
